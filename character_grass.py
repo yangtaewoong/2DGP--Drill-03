@@ -43,16 +43,20 @@ def run_right():
 
 def run_botoom():
     print('Bottom')
+    for x in range(790, 0, -10):
+        draw_character(x, 90)
     pass
 
 def run_left():
     print('Left')
+    for y in range(90, 800, 10):
+         draw_character(x, 90)
     pass
 
 def run_rectangle():
     print('Rectangle')
     #run_top()
-    run_right()
+    #run_right()
     run_botoom()
     run_left()
 
