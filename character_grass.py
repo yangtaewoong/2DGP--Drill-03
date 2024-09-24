@@ -69,18 +69,26 @@ def run_tribottom():
 
 def run_leftdiagonal():
     print('leftdiagonal')
+    y = 490
+    for x in range(400, 200, -10):
+        y = y - 20
+        draw_character(x,y)
     pass
 
 def run_rightdiagonal():
     print('rightdiagonal')
+    y = 90
+    for x in range(600, 400, -10):
+        y = y + 20
+        draw_character( x,y)
     pass
 
 def run_triangle():
     print('Triangle')
     run_tribottom()
-    run_leftdiagonal()
     run_rightdiagonal()
-
+    run_leftdiagonal()
+    
     pass
 
 
