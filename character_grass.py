@@ -49,14 +49,14 @@ def run_botoom():
 
 def run_left():
     print('Left')
-    for y in range(90, 800, 10):
-         draw_character(x, 90)
+    for y in range(90, 550, 10):
+         draw_character(0, y)
     pass
 
 def run_rectangle():
     print('Rectangle')
-    #run_top()
-    #run_right()
+    run_top()
+    run_right()
     run_botoom()
     run_left()
 
@@ -64,7 +64,7 @@ def run_rectangle():
 
 
 while True:
-    #run_circle()
+    run_circle()
     run_rectangle()
     
     break;
