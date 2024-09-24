@@ -61,12 +61,32 @@ def run_rectangle():
     run_left()
 
     pass
+def run_tribottom():
+    print('tribottom')
+    pass
+
+def run_leftdiagonal():
+    print('leftdiagonal')
+    pass
+
+def run_rightdiagonal():
+    print('rightdiagonal')
+    pass
+
+def run_triangle():
+    print('Triangle')
+    run_tribottom()
+    run_leftdiagonal()
+    run_rightdiagonal()
+
+    pass
 
 
 while True:
-    run_circle()
-    run_rectangle()
+    #run_circle()
+    #run_rectangle()
+    run_triangle()
     
-    break;
+    break
 
 close_canvas()
