@@ -63,6 +63,8 @@ def run_rectangle():
     pass
 def run_tribottom():
     print('tribottom')
+    for x in range(200, 600, 10):
+        draw_character(x, 90)
     pass
 
 def run_leftdiagonal():
