@@ -37,6 +37,8 @@ def run_top():
 
 def run_right():
     print('Right')
+    for y in range(550, 0, -10):
+        draw_character(790, y)
     pass
 
 def run_botoom():
@@ -49,7 +51,7 @@ def run_left():
 
 def run_rectangle():
     print('Rectangle')
-    run_top()
+    #run_top()
     run_right()
     run_botoom()
     run_left()
@@ -58,7 +60,7 @@ def run_rectangle():
 
 
 while True:
-    run_circle()
+    #run_circle()
     run_rectangle()
     
     break;
